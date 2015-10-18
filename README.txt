@@ -6,7 +6,7 @@
   Да хотя бы вот так:
 
 <?php
-  $mailer = new uniMailer();
+  $mailer = new xbMailer();
   $mailer->mailConfig = array(
     'type' => 'html'
   );
