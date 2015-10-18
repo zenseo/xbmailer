@@ -1,6 +1,6 @@
 <?php
   /**
-   * uniMailer
+   * xbMailer
    * Универсальный интерфейс для отправки электронной почты
    *
    * @version 1.0
@@ -8,7 +8,7 @@
    */
 
   /**
-   * Class uniMailer
+   * Class xbMailer
    * @property      array  $mailConfig
    * @property      array  $SMTPConfig
    * @property-read bool   $SMTPValid
@@ -16,7 +16,7 @@
    * @property-read string $charset
    * @property-read string $lastError
    */
-  class uniMailer {
+  class xbMailer {
     protected $_mailConfig = array();
     protected $_SMTPConfig = array();
     protected $_SMTPValid  = false;
